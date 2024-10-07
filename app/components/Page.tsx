@@ -4,7 +4,7 @@ import drawLine from '~/utils/drawLine'; // Adjust the path as necessary
 import Palette from '~/components/Palette';
 import { io } from 'socket.io-client';
 
-const socket = io('http://localhost:3001');
+const socket = io('https://server-holy-violet-8261.fly.dev/');
 
 type DrawLineProps = {
   prevPoint: Point | null;
